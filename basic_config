@@ -1,0 +1,43 @@
+[xboxdrv]
+silent=true
+deadzone=6000
+dpad-as-button=true
+trigger-as-button=true
+
+[ui-axismap]
+#Map the Right stick like a mouse.
+x2=ABS_X
+y2=ABS_Y
+
+#Map the left stick as keys
+x1=REL_X:10
+y1=REL_Y:-10
+
+#Map the 4 coloured buttons
+[ui-buttonmap]
+a=KEY_LEFTSHIFT
+b=BTN_C
+x=BTN_EXTRA
+y=KEY_C
+
+#Map the Bumper Buttons
+[ui-buttonmap]
+lb=BTN_RIGHT
+rb=KEY_SPACE
+
+#Map the Triggers.
+[ui-buttonmap]
+lt=KEY_Z
+rt=BTN_LEFT
+
+#Map the D-PAD
+[ui-buttonmap]
+dl=KEY_A
+dr=KEY_D
+du=KEY_W
+dd=KEY_S
+
+[ui-buttonmap]
+back=KEY_TAB
+start=KEY_ESC
+guide=KEY_HOME

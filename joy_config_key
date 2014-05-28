@@ -1,0 +1,41 @@
+[xboxdrv]
+silent=true
+deadzone=6000
+dpad-as-button=true
+trigger-as-button=true
+
+[ui-axismap]
+#Right stick to ABS
+x2=ABS_X
+y2=ABS_Y
+#Left stick to Mouse
+x1=REL_X:10
+y1=REL_Y:-10
+
+[ui-buttonmap]
+a=KEY_A
+b=KEY_B
+x=KEY_X
+y=KEY_Y
+
+#Map the Bumper Buttons
+[ui-buttonmap]
+lb=BTN_RIGHT
+rb=KEY_SPACE
+
+#Map the Triggers.
+[ui-buttonmap]
+lt=KEY_Z
+rt=BTN_LEFT
+
+#Map the D-PAD
+[ui-buttonmap]
+dl=KEY_4
+dr=KEY_2
+du=REL_WHEEL:-1:150
+dd=REL_WHEEL:1:150
+
+[ui-buttonmap]
+back=KEY_TAB
+start=KEY_ESC
+guide=KEY_ENTER
